@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rlyout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.jude.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/recyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.jude.easyrecyclerview.EasyRecyclerView>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whilte"
+        android:background="@color/colorAccent"
+        android:text="复原"
+        android:visibility="gone"/>
+
+</RelativeLayout>

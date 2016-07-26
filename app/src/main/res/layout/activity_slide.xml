@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llyout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_fade_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="滑动动画左边"/>
+
+
+    <Button
+        android:id="@+id/btn_fade_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="滑动动画右边"/>
+
+    <Button
+        android:id="@+id/btn_fade_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="滑动动画上边"/>
+
+    <Button
+        android:id="@+id/btn_fade_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="滑动动画下边"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:text="我是动画执行者"/>
+
+</LinearLayout>

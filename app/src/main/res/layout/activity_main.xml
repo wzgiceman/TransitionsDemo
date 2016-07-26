@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llyout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_fade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="滑动动画"/>
+
+    <Button
+        android:id="@+id/btn_explode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="粒子扩散动画"/>
+
+    <Button
+        android:id="@+id/btn_fade_scale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fade和scale动画"/>
+
+    <Button
+        android:id="@+id/btn_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="path动画"/>
+
+    <Button
+        android:id="@+id/btn_tx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文字动画"/>
+</LinearLayout>
